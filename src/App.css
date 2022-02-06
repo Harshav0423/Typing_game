@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  position: relative;
+  background-color: #202122;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  height: 85vh;
+}
+
+.container-body {
+  width: 800px;
+  height: 300px;
+  margin: auto;
+  background-color: #cbdce4;
+  border: 1px solid transparent;
+  border-radius: 10px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #0a79df;
+}
+
+.top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 10px 10px 0 10px;
+}
+
+#select {
+  font-size: 1rem;
+  color: #141616;
+  border: 1px solid transparent;
+  outline: none;
+  padding: 1px 2px;
+  border-radius: 5px;
+  background-color: rgb(36, 117, 176, 0.8);
+  color: #fff;
+  cursor: pointer;
+}
+
+#select:hover {
+  background-color: rgb(36, 117, 176);
+}
+
+#select option {
+  background-color: #659ec7;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  outline: none;
+}
+
+.button {
+  border: 1px solid transparent;
+  padding: 1px 8px;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: #fff;
+}
+
+.button-reset {
+  background-color: rgba(119, 126, 139, 0.8);
+}
+
+.button-reset:hover {
+  background-color: rgb(119, 126, 139);
+  outline: none;
+}
+
+.button-start {
+  background-color: rgba(16, 168, 129, 0.8);
+  padding: 4px 30px;
+  font-size: 1.5rem;
+  border-radius: 10px;
+}
+
+.button-start:hover {
+  outline: none;
+  background-color: rgb(16, 168, 129);
+  box-shadow: 1px 1px 2px 2px rgba(16, 168, 129, 0.2),
+    -1px -1px 2px 2px rgba(16, 168, 129, 0.2);
+}
+
+.start-text {
+  font-size: 17px;
+}
+
+.btn .btn-dark {
+  border: 1px solid transparent;
+  padding: 5px;
+}
+
+.final-score {
+  color: #3c40c6;
+  font-size: 1.1rem;
+}
+
+.timeleft,
+.score {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #273136;
+}
+
+.input {
+  width: 250px;
+  padding: 3px 6px;
+  border: 1px double #273136;
+  border-radius: 5px;
+  outline: none;
+  font-size: 1rem;
+}
